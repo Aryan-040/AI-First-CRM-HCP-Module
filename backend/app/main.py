@@ -15,8 +15,8 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000" , "https://ai-first-crm-hcp-module-inky.vercel.app"],
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False, 
     allow_methods=["*"],
     allow_headers=["*"],
 )
