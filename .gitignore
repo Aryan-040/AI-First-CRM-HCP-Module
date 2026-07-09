@@ -33,3 +33,7 @@ Thumbs.db
 # Database
 *.db
 *.sqlite3
+
+# Kiro
+.kiro/
+kiro.md

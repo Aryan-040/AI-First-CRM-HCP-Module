@@ -116,7 +116,6 @@ export default function InteractionForm() {
           type="button"
           className="mt-2 inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium text-gray-600 bg-gray-100 hover:bg-gray-200 border border-gray-200 rounded-md transition-colors"
         >
-          <span>✨</span>
           Summarize from Voice Note (Requires Consent)
         </button>
       </div>
@@ -141,7 +140,7 @@ export default function InteractionForm() {
                 type="button"
                 className="px-2.5 py-2 border border-gray-300 rounded-lg text-xs text-gray-500 hover:bg-gray-50 whitespace-nowrap"
               >
-                🔍 Search/Add
+                Search/Add
               </button>
             </div>
           </div>
@@ -159,7 +158,7 @@ export default function InteractionForm() {
                 type="button"
                 className="px-2.5 py-2 border border-gray-300 rounded-lg text-xs text-gray-500 hover:bg-gray-50 whitespace-nowrap"
               >
-                💊 Add Sample
+                Add Sample
               </button>
             </div>
           </div>
@@ -187,7 +186,6 @@ export default function InteractionForm() {
                 className="peer w-3.5 h-3.5 text-blue-600 border-gray-300 focus:ring-blue-500"
               />
               <span className="text-sm flex items-center gap-1">
-                <span>{s.icon}</span>
                 <span className="capitalize text-gray-700">{s.label}</span>
               </span>
             </label>
